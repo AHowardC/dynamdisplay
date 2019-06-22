@@ -2,7 +2,7 @@
 // document.body.append(pTag);
 // pTag.innerHTML = 'testing';
 
-//create an ajax request fetch from
+//create an fetch request fetch from
 fetch("https://jsonplaceholder.typicode.com/photos")
   .then(res => res.json())
   .then(json =>
